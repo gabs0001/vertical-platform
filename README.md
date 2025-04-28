@@ -1,3 +1,3 @@
-# game básico onde um personagem pode subir em plataformas
+# game básico onde um personagem pode correr nas duas direções, saltar e subir nas plataformas
 # atualizações em desenvolvimento
 # feito utilizando HTML, CSS e Javascript
