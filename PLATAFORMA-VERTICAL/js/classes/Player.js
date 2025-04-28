@@ -25,7 +25,7 @@ class Player extends Sprite {
             height: 10
         }
 
-        this.animations = animations //armazena os sprites
+        this.animations = animations
         this.lastDirection = 'right'
 
         for(let key in this.animations) {
@@ -122,8 +122,7 @@ class Player extends Sprite {
         this.applyGravity()
         this.updateHitbox()
         this.checkForVerticalCollisions()
-
-        //controle do limite inferior do canvas
+        
         // if(this.position.y + this.height + this.velocity.y < canvas.height) this.velocity.y += gravity
         // else this.velocity.y = 0
     }
